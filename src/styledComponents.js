@@ -7,7 +7,7 @@ export const CustomBackground = styled.div`
   display: flex;
   flex-direction: column;
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@ export const ChoicesContainer = styled.div`
   alignitems: center;
   width: 100%;
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     width: 40%;
   }
 `
@@ -44,7 +44,7 @@ export const ScoreCard = styled.div`
   margin-bottom: 30px;
   text-align: left;
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     width: 60%;
   }
 `
@@ -52,7 +52,6 @@ export const ScoreCard = styled.div`
 export const Choices = styled.div`
   display: flex;
   flex-direction: column;
-  
 `
 
 export const Option = styled.p`
@@ -93,7 +92,7 @@ export const CustomImg = styled.img`
   @media screen and (min-width: 375px) and (max-width: 767px) {
     width: 170px;
   }
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     width: 200px;
   }
 `
@@ -117,7 +116,7 @@ export const Heading = styled.h1`
   text-align: center;
   color: #ffffff;
 
-  @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     font-size: 34px;
   }
 `
